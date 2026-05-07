@@ -1,0 +1,20 @@
+[package]
+name = "gitsimple-terminal"
+version = "0.3.0"
+edition = "2024"
+description = "A beginner-friendly terminal UI for Git and GitHub workflows."
+repository = "https://github.com/TabulateTech/gitsimple-terminal"
+readme = "README.md"
+license = "MIT"
+keywords = ["git", "github", "terminal", "tui"]
+categories = ["command-line-utilities", "development-tools"]
+
+[[bin]]
+name = "gitsimple"
+path = "src/main.rs"
+
+[dependencies]
+crossterm = "0.29"
+ratatui = "0.29"
+serde = { version = "1", features = ["derive"] }
+toml = "0.9"

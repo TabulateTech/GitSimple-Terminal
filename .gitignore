@@ -1,0 +1,9 @@
+/target/
+/gitsimple.exe
+*.exe
+!scripts/*.bat
+*.pdb
+*.ilk
+*.obj
+*.log
+.env
